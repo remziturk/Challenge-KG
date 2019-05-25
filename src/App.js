@@ -4,7 +4,7 @@ import Tree from "./components/Tree";
 import Basket from "./components/Basket";
 import Apple from "./components/Apple";
 import Button from "./components/Button";
-import "./App.scss";
+import "./assets/styles/App.scss";
 
 class App extends React.Component {
   // Define States
