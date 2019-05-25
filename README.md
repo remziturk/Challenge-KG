@@ -4,9 +4,9 @@ Açıkçası kurguyu yapmakta biraz zorlandım. Cuma günü teslim için söz ve
 
 Açıklama satırlarını en son yazdım. Bu yüzden anlamlı bir şekilde yazamamış olabilirim. Redux ve Webpack'i de yeterli bilgiye sahip olmadığım için kullanmadım.
 
-Sonuç olarak tamamen taskta belirttiğiniz gibi olmadı ama yine de birşeyler yapabildiğimi düşünüyorum.
-
 İş görüşmesinde de bahsettiğim gibi; ES6 ve React konusunda jr. seviyedeyim.
+
+Sonuç olarak tamamen taskta belirttiğiniz gibi olmadı ama yine de birşeyler yapabildiğimi düşünüyorum.
 
 Teşekkürler. 
 Mehmet Remzi Türk

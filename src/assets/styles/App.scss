@@ -1,17 +1,15 @@
-// CSS Style Start
 // Reset and Add new Style html & body 
 html, body {
   margin: 0;
   padding: 0;
+}
   
-  body {
-    font-size: 18px;
-    font-size: calc(10px + 2vmin);
-    font-weight: 400;
-    background-color: #282c34;
-    min-height: 100vh;
-    color: white;
-  }
+body {
+  font-size: calc(10px + 2vmin);
+  font-weight: 400;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
 }
 
 // Class for Shaking Tree
