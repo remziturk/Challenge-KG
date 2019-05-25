@@ -1,0 +1,96 @@
+// CSS Style Start
+// Reset and Add new Style html & body 
+html, body {
+  margin: 0;
+  padding: 0;
+  
+  body {
+    font-size: 18px;
+    font-size: calc(10px + 2vmin);
+    font-weight: 400;
+    background-color: #282c34;
+    min-height: 100vh;
+    color: white;
+  }
+}
+
+// Class for Shaking Tree
+.shaking {
+  animation-name: shake;
+  animation-duration: 3s;
+}
+
+// Display Box and İnside Elements Styles
+.challenge {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+  
+  &__tree {
+    margin-top: 20px;
+    width: 700px;
+    height: 700px;
+    position: relative;
+  }
+  
+  &__basket {
+    height: 150px;
+    position: absolute;
+    bottom: -5px;
+    transition: all 1s ease-in;
+  }
+  
+  &__apple {
+    height: 40px;
+    position: absolute;
+    transition: all 3s ease-in;
+    
+    &__droped {
+      animation: extinction 0s ease-in 3s forwards;
+    }
+  }
+  
+  &__pick-up-apple {
+    width: 200px;
+    height: 50px;
+    border: 5px solid #097c09;
+    border-radius: 5px;
+    background: #28a528;
+    outline: none;
+    transition: background, border-color 0.3s ease-in-out;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    &:hover {
+      border: 5px solid #28a528;
+      background: #097c09;
+    }
+  }
+}
+
+// Extinction Apples Keyframes
+@keyframes extinction {
+  to {
+    width:0;
+    height:0;
+    overflow:hidden;
+  }
+}
+
+// Shakeing Tree Keyframes
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
