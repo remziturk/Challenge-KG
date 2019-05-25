@@ -60,6 +60,7 @@ class App extends React.Component {
     })
   };
 
+  // Finally. The tip of the Iceberg  
   render() {
     return (
       <div className="challenge">
